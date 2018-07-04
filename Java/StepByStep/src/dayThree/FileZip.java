@@ -121,10 +121,10 @@ public class FileZip {
         }
     }
 
-    //测试
+    // 测试
     public static void main(String[] args) {
         // 要压缩的文件
-        File f = new File("D:/media/test");
+        File f = new File("D:/media/股市台投资快讯7604");
         // 压缩后保存的路径及文件名
         new FileZip(new File( "D:/media",f.getName()+".zip")).zipFiles(f);
     }
