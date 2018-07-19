@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="StepByStep:jar3">
+    <output-path>$PROJECT_DIR$/out/artifacts/StepByStep_jar3</output-path>
+    <root id="archive" name="StepByStep.jar">
+      <element id="module-output" name="StepByStep" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/StepByStep/lib/commons-net-3.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/StepByStep/lib/commons-net-examples-3.6.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

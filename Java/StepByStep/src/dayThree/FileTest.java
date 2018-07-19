@@ -6,7 +6,7 @@ public class FileTest {
 
     public static void main(String[] args) {
         // 获取目录
-        File file = new File("D:/media/test");
+        File file = new File("D:/media");
         // 把文件作为参数进行遍历
         market(file);
     }

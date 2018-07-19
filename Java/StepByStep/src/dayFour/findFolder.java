@@ -17,6 +17,7 @@ import java.util.zip.ZipOutputStream;
 
 public class findFolder {
     private static Date getCreateTime2(String fullFileName){
+        // fullFileName="D:/media/股市台投资快讯7604"
         Path path=Paths.get(fullFileName);
         BasicFileAttributeView basicview=Files.getFileAttributeView(path, BasicFileAttributeView.class,LinkOption.NOFOLLOW_LINKS );
         BasicFileAttributes attr;
@@ -34,9 +35,9 @@ public class findFolder {
         return cal.getTime();
     }
 
-    // 测试类
+    // 测试
     public static void main(String[] arrs){
-        String uri = "D:/media/test";
+        String uri = "D:/media/股市台投资快讯7604";
         System.out.println(getCreateTime2(uri));
     }
 }

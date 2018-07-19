@@ -1,0 +1,2 @@
+2018-07-18 15:29:35 [INFO] 看不见! [main] test.test [dayEight.LogTest.main(LogTest.java:24)]
+2018-07-18 15:29:35 [WARN] 看得见! [main] test.test [dayEight.LogTest.main(LogTest.java:25)]
